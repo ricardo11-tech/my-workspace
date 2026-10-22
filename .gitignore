@@ -1,0 +1,65 @@
+# ---- 通用 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+~$*
+
+# ---- IDE / 编辑器 ----
+.vscode/
+.idea/
+*.suo
+*.user
+*.uvguix.*
+*.uvoptx
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# ---- 编译/构建产物（嵌入式、FPGA 常见） ----
+*.o
+*.obj
+*.hex
+*.bin
+*.elf
+*.map
+*.axf
+*.lst
+*.crf
+*.d
+*.dep
+*.htm
+*.lnp
+*.sct
+*.iex
+*.bak
+db/
+incremental_db/
+output_files/
+simulation/
+work/
+*.vcd
+*.wlf
+transcript
+
+# ---- Office 临时文件 ----
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# ---- 其他 ----
+.workbuddy/
